@@ -13,9 +13,9 @@ This code reads the contents of a text file called 'file_input.txt', adds a four
 Customizable options
 =======================================================================
 
-Custom opening/closing brackets for IDs (line 2):
+- Custom opening/closing brackets for IDs (line 2):
 ```Py
-# by default
+# by default:
 id_opening_bracket = "\""
 id_closing_bracket = "\""
 # to disable this option:
@@ -23,20 +23,29 @@ id_opening_bracket = ""
 id_closing_bracket = ""
 ```
 
-Custom word separator (line 5):
+- Custom word separator (line 5):
 ```Py
-# by default
+# by default:
 lines_separator = ","
-# e.g. for csv foles:
+# e.g. for csv files:
 lines_separator = ";"
 ```
 
-Index formatting with leading zeros (line 37):
+- Index formatting with leading zeros (line 37):
 
 ```Py
 # e.g. 7 digits long:
 line[0] = id_opening_bracket + f"{i+1:07}" + id_closing_bracket
-# for disabling this feature
+# for disabling this feature use:
 line[0] = id_opening_bracket + f"{i+1}" + id_closing_bracket
 ```
 
+- You can also change the initial ID value (line 37) and step (line 42):
+```Py
+# by default is "0001":
+line[0] = id_opening_bracket + f"{i+1:04}" + id_closing_bracket
+# e.g. "0099":
+line[0] = id_opening_bracket + f"{i+99:04}" + id_closing_bracket
+# e.g. "0000":
+line[0] = id_opening_bracket + f"{i:04}" + id_closing_bracket
+```
