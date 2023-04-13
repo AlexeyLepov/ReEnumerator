@@ -15,6 +15,7 @@ Customizable options
 
 Custom opening/closing brackets for IDs (line 2):
 ```Py
+# by default
 id_opening_bracket = "\""
 id_closing_bracket = "\""
 # to disable this option:
@@ -24,6 +25,7 @@ id_closing_bracket = ""
 
 Custom lines separator (line 5):
 ```Py
+# by default
 lines_separator = ","
 # e.g. for csv foles:
 lines_separator = ";"
