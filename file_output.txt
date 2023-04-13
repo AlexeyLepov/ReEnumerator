@@ -1,0 +1,5 @@
+"0001","+","Apple iPhone XR 128GB Red","https://www.apple.com/shop/buy-iphone/iphone-xr/6.1-inch-display-128gb-red-unlocked","12.5"
+"0002","+","Samsung Galaxy S21 5G 128GB Phantom Gray","https://www.samsung.com/us/smartphones/galaxy-s21-5g/buy/galaxy-s21-5g-128gb-unlocked-sm-g991uzkaxaa/","11.0"
+"0003","+","Sony WH-1000XM4 Wireless Noise Cancelling Headphones","https://www.amazon.com/Sony-WH-1000XM4-Canceling-Headphones-Phone-Call/dp/B08CVRNPRZ/","4.3.0.0"
+"0004","+","Bose QuietComfort 35 II Wireless Bluetooth Headphones","https://www.amazon.com/Bose-QuietComfort-Wireless-Headphones-Cancelling/dp/B0756CYWWD/","4.5.2.0"
+"0005","+","Apple iPad Pro 11-inch Wi-Fi 256GB - Space Gray","https://www.apple.com/shop/buy-ipad/ipad-pro/11-inch-display-256gb-space-gray-wifi","14.5"
