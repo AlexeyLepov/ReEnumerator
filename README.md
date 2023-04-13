@@ -23,7 +23,7 @@ id_opening_bracket = ""
 id_closing_bracket = ""
 ```
 
-Custom lines separator (line 5):
+Custom word separator (line 5):
 ```Py
 # by default
 lines_separator = ","
