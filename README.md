@@ -13,10 +13,13 @@ This code reads the contents of a text file called 'file_input.txt', adds a four
 Customizable options
 =======================================================================
 
-Custom opening and closing brackets for id (line 2):
+Custom opening/closing brackets for IDs (line 2):
 ```Py
 id_opening_bracket = "\""
 id_closing_bracket = "\""
+# to disable this option:
+id_opening_bracket = ""
+id_closing_bracket = ""
 ```
 
 Custom lines separator (line 5):
