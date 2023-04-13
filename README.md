@@ -6,9 +6,12 @@ ReEnumerator
 ![Repo](https://img.shields.io/github/repo-size/AlexeyLepov/ReEnumerator?style=for-the-badge)
 ![LastCommint](https://img.shields.io/github/last-commit/AlexeyLepov/ReEnumerator?style=for-the-badge)
 
-This code reads the contents of a text file called 'file_input.txt', adds a four-digit index number to the beginning of each line (that can be changed), and then writes the modified lines back to the same file, overwriting the original contents.
+This console app reads the contents of a text file called `file_input.txt`, adds a four-digit index number to the beginning of each line (that formatting can be changed), and then writes the modified lines to the `file_output.txt` file.
+
+There is also a module, `delete_empty_lines.py`, for deleting blank lines; consider running it before executing the `main.py` module, or else the enumeration will break.
 
 ![readme_img](https://user-images.githubusercontent.com/77492646/231809951-9093e722-9c97-4483-9bf9-018a956bf7bc.png)
+
 
 Customizable options
 =======================================================================
