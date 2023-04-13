@@ -25,6 +25,8 @@ id_closing_bracket = ""
 Custom lines separator (line 5):
 ```Py
 lines_separator = ","
+# e.g. for csv foles:
+lines_separator = ";"
 ```
 
 Index formatting with leading zeros (line 37):
